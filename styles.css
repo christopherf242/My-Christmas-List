@@ -1,0 +1,51 @@
+
+body {
+    background-color: yellow;
+}
+#title {
+    text-align: center;
+}
+
+#assassin-creed-pic {
+    width: 40%;
+    height: 75%;
+}
+.top-of-page {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.first-part {
+    display: flex;
+   	justify-content: space-around;
+	background-color: green;
+    border: 10px groove white;
+    
+}
+
+.second-part {
+    display: flex;
+    justify-content: space-around;
+    background-color: dodgerblue;
+    border: 10px groove white;
+}
+
+.christmas-item {
+    display: block;
+    /* Notes: Before, I changed the color of the background and border to see how much space was needed for each item in my christmas list */
+    /*
+    background-color: blue;
+    border: 10px solid green; 
+    */
+    width: 50%; /*This helped a lot with keeping the space equal, now I'll just try to get teh Miles Morales picture a little bigger */
+}
+
+.christmas-item-picture{
+    width: 30%;
+}
+
+.pictures {
+    height: 30%;
+    width: 30%;
+}
